@@ -1,0 +1,43 @@
+.hero {
+    background: linear-gradient(135deg, #534AB7 0%, #378ADD 100%);
+    padding: 2rem;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+ 
+.hero h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+ 
+.hero p {
+    margin: 0.4rem 0 0;
+    opacity: 0.9;
+}
+ 
+/* Prediction result box */
+.result-box {
+    padding: 1.4rem;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+ 
+.positive {
+    background-color: #E6F4EA;
+    color: #1E7E34;
+}
+ 
+.negative {
+    background-color: #FDECEA;
+    color: #C0392B;
+}
+ 
+.neutral {
+    background-color: #FEF6E0;
+    color: #B7791F;
+}
+ 
